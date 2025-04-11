@@ -618,6 +618,7 @@ class _TUIChatState extends TIMUIKitState<TIMUIKitChat> {
                                           showSendEmoji: widget
                                                   .config?.isAllowEmojiPanel ??
                                               true,
+                                          backgroundColor: const Color(0xFFF0F0F0),
                                         ));
                             },
                             selector: (c, model) {
